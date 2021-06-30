@@ -18,18 +18,26 @@ a{
 #sidebar{
     background-color: #ccebff;
     /* display: inline-block; */
-    width: 30%;
+    width: 20%;
     height: 1000px;
     float:left;
+}
+
+#trending{
+    width: 20%;
+    height: 1000px;
+    float: right;
+    background-color: rgb(230, 230, 230);
 }
 
 #mainContent{
     /* background-color: blue; */
     /* display: inline-block; */
-    width: 70%;
+    width: 60%;
     height: 1000px;
     float: right;
 }
+
 
 #logo{
     width: 100%;
