@@ -1,0 +1,92 @@
+body{
+    font-family: sans-serif;
+}
+
+nav{
+    background-color: rgb(238, 238, 238);
+}
+
+.navItem{
+    margin: 20px;
+    display: inline-block;
+}
+
+a{
+    color: black;
+}
+
+#sidebar{
+    background-color: #ccebff;
+    /* display: inline-block; */
+    width: 30%;
+    height: 1000px;
+    float:left;
+}
+
+#mainContent{
+    /* background-color: blue; */
+    /* display: inline-block; */
+    width: 70%;
+    height: 1000px;
+    float: right;
+}
+
+#logo{
+    width: 100%;
+    height: auto;
+}
+
+#userHandle{
+    text-align: center;
+}
+
+#tweetLabel{
+    display:block;
+    margin: 15px;
+}
+
+#tweet{
+    display:block;
+    margin:auto;
+}
+
+#submitTweet{
+    display: block;
+    /* float: right; */
+    margin: auto;
+    margin-top: 15px;
+}
+
+.heading{
+    margin: 30px;
+    color: #1DA1F2;
+}
+
+.tweetContent{
+    display: block;
+    background-color: white;
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.tweetContent:hover{
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 15px;
+}
+
+.tweetName{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.tweetHandle{
+    margin: 15px;
+}
+
+.tweetText{
+    margin: 15px;
+}
